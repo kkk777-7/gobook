@@ -1,0 +1,111 @@
+1.39s   127801  http://www.alexa.com/topsites
+1.39s elapsed
+-----
+0.18s    15591  http://google.com
+0.74s    85726  http://facebook.com
+0.90s   616863  http://youtube.com
+0.90s elapsed
+-----
+0.18s    15592  http://google.com
+0.18s elapsed
+-----
+Get "http://googleusercontent.com": dial tcp: lookup googleusercontent.com: no such host
+0.18s    15563  http://google.com
+Get "http://livedoor.jp": dial tcp: lookup livedoor.jp: no such host
+0.31s     1561  http://googleadservices.com
+0.32s       81  http://baidu.com
+0.39s   224529  http://wordpress.com
+0.43s      706  http://tmaill.com
+0.44s   277635  http://github.com
+0.54s    71124  http://apple.com
+0.57s        8  http://onclickads.net
+0.57s    16297  http://google.com.br
+0.57s    15263  http://google.co.kr
+0.60s    16284  http://google.ca
+0.60s    37064  http://live.com
+0.60s    16296  http://google.ru
+0.63s   136360  http://nicovideo.jp
+0.64s    16316  http://google.com.mx
+0.65s   129309  http://qq.com
+0.65s    15987  http://google.com.hk
+0.66s     3367  http://t.co
+0.66s    16310  http://google.de
+0.67s    16296  http://google.es
+0.75s   100911  http://people.com.cn
+0.76s    16334  http://google.co.uk
+0.76s    16318  http://google.com.au
+0.78s    16997  http://fc2.com
+0.78s    16332  http://google.pl
+0.79s  1660663  http://dailymail.co.uk
+0.80s   180155  http://stackoverflow.com
+0.81s    85720  http://twitter.com
+0.81s    84757  http://bing.com
+0.82s    16323  http://google.co.in
+0.83s    14508  http://google.co.jp
+0.84s  1121276  http://cnn.com
+0.85s    85731  http://facebook.com
+0.88s     7091  http://pixnet.net
+0.90s     5816  http://soso.com
+0.92s   697145  http://wikia.com
+0.92s    39427  http://yahoo.co.jp
+1.00s    16316  http://google.fr
+1.02s   217323  http://sohu.com
+1.04s   140044  http://diply.com
+1.05s   186229  http://naver.com
+1.06s   113246  http://xinhuanet.com
+1.07s    79455  http://wikipedia.org
+1.08s      150  http://kat.cr
+1.09s     7155  http://imgur.com
+1.10s    80920  http://360.cn
+1.10s   154155  http://xhamster.com
+1.11s   197103  http://microsoft.com
+1.12s    36949  http://aliexpress.com
+1.15s    13884  http://popads.net
+1.23s    16342  http://google.it
+1.23s    68586  http://instagram.com
+1.24s   652800  http://youtube.com
+1.24s     6591  http://amazon.com
+1.28s   424094  http://hao123.com
+1.28s   505587  http://dropbox.com
+1.30s    44131  http://tumblr.com
+1.30s    91728  http://pinterest.com
+1.32s    16273  http://google.co.id
+1.38s   166493  http://ebay.com
+1.41s   149507  http://gmw.cn
+1.42s   437159  http://amazon.co.jp
+1.49s   126848  http://linkedin.com
+1.49s    62492  http://adcash.com
+1.54s   280053  http://alibaba.com
+1.55s     7624  http://tianya.cn
+1.72s    95068  http://weibo.com
+1.76s   358781  http://cntv.cn
+1.83s   626277  http://go.com
+1.85s    47898  http://msn.com
+1.89s   307920  http://mail.ru
+1.91s   429618  http://netflix.com
+1.91s   186354  http://ok.ru
+1.91s    65406  http://paypal.com
+1.94s   110747  http://ask.com
+2.00s    59500  http://outbrain.com
+2.03s   926485  http://reddit.com
+2.07s   538507  http://sina.com.cn
+2.18s    48722  http://dailymotion.com
+2.24s   587620  http://amazon.de
+2.24s   365093  http://ebay.de
+2.30s   626003  http://yahoo.com
+2.32s   119866  http://yandex.ru
+2.43s   845456  http://flipkart.com
+2.46s   397921  http://ebay.co.uk
+2.61s   521897  http://amazon.in
+2.72s   824662  http://imdb.com
+3.06s    94478  http://blogger.com
+3.10s    63635  http://Vk.com
+3.13s     7053  http://amazon.co.uk
+3.15s   368229  http://bbc.co.uk
+3.21s    94478  http://blogspot.com
+3.93s   514571  http://booking.com
+4.14s    61094  http://craigslist.org
+5.68s   330245  http://rakuten.co.jp
+Get "http://taobao.co": dial tcp: i/o timeout
+30.00s elapsed
+-----

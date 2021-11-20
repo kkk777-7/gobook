@@ -1,0 +1,15 @@
+0.25s    39474  https://www.yahoo.co.jp/
+0.25s elapsed
+-----
+0.21s    39474  https://www.yahoo.co.jp/
+0.21s elapsed
+-----
+0.21s    39474  https://www.yahoo.co.jp/
+0.21s elapsed
+-----
+0.22s    39474  https://www.yahoo.co.jp/
+0.22s elapsed
+-----
+0.22s    39474  https://www.yahoo.co.jp/
+0.22s elapsed
+-----

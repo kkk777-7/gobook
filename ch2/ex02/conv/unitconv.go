@@ -21,11 +21,11 @@ func (k Kelvin) String() string     { return fmt.Sprintf("%g°K", k) }
 type Feet float64
 type Meter float64
 
-func (f Feet) String() string  { return fmt.Sprint("%g feet", f) }
+func (f Feet) String() string  { return fmt.Sprintf("%g feet", f) }
 func (m Meter) String() string { return fmt.Sprintf("%g meters", m) }
 
 type Pound float64
 type Kilogram float64
 
-func (p Pound) string() string    { return fmt.Sprintf("%g pounds", p) }
-func (k Kilogram) string() string { return fmt.Sprintf("%g kilograms", k) }
+func (p Pound) String() string    { return fmt.Sprintf("%g pounds", p) }
+func (k Kilogram) String() string { return fmt.Sprintf("%g kilograms", k) }

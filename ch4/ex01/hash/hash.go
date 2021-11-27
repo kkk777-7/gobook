@@ -1,6 +1,8 @@
 package hash
 
-import "crypto/sha256"
+import (
+	"crypto/sha256"
+)
 
 var pc [256]byte
 
@@ -10,18 +12,12 @@ func init() {
 	}
 }
 
-func totalPopCount(bytes []byte) int {
-	total := 0
-	for _, b := range bytes {
-		total += int(pc[b])
-	}
-	return total
-}
-
-func PopCountDiff(sum1, sum2 [sha256.Size]byte) int {
-	xorBytes := make([]byte, 0, sha256.Size)
+func PopCountDiff(s1, s2 [sha256.Size]byte) int {
+	var cnt int
 	for i := 0; i < sha256.Size; i++ {
-		xorBytes = append(xorBytes, sum1[i]^sum2[i])
+		diff := s1[i] ^ s2[i]
+		cntdiff := pc[diff]
+		cnt += int(cntdiff)
 	}
-	return totalPopCount(xorBytes)
+	return cnt
 }

@@ -48,7 +48,8 @@ func forEachNode(n *html.Node, startElement, endElement func(n *html.Node)) {
 
 func startElement(n *html.Node) {
 	if n.Type == html.ElementNode {
-		fmt.Printf("%*s<%s>\n", depth*2, "", n.Data)
+		fmt.Printf("%*s<%s", depth*2, "", n.Data)
+		nodeprint(n)
 		depth++
 	}
 }
@@ -57,5 +58,18 @@ func endElement(n *html.Node) {
 	if n.Type == html.ElementNode {
 		depth--
 		fmt.Printf("%*s</%s>\n", depth*2, "", n.Data)
+	}
+}
+
+func nodeprint(n *html.Node) {
+	if n.Type == html.ElementNode {
+		if len(n.Attr) > 0 {
+			a := n.Attr
+			fmt.Printf(" %s='%s'>\n", a[0].Key, a[0].Val)
+		} else {
+			fmt.Printf(">\n")
+		}
+	} else {
+		fmt.Printf(">\n")
 	}
 }

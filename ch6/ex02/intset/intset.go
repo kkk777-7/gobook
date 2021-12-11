@@ -56,19 +56,19 @@ func (s *IntSet) String() string {
 	return buf.String()
 }
 
-// Return the number of elements.
+// Len returns the number of elements.
 func (s *IntSet) Len() int {
 	num := len(s.Words)
 	return num
 }
 
-// Remove x from the set.
+// Remove removes x from the set.
 func (s *IntSet) Remove(x int) {
 	word, bit := x/64, uint(x%64)
 	s.Words[word] &= 0 << bit
 }
 
-// Remove all elements from the set.
+// Clear removes all elements from the set.
 func (s *IntSet) Clear() {
 	for i := range s.Words {
 		for j := 0; j < 64; j++ {
@@ -77,12 +77,13 @@ func (s *IntSet) Clear() {
 	}
 }
 
-// Returns a copy of the set.
+// Copy returns a copy of the set.
 func (s *IntSet) Copy() *IntSet {
 	res := s
 	return res
 }
 
+// Addall adds the non-negative values args to the set.
 func (s *IntSet) AddAll(args ...int) {
 	for _, arg := range args {
 		s.Add(arg)
